@@ -5,7 +5,8 @@ body{
 }
 .profile{
     border-radius:50%;
-    width: 30%;
+    width: 25%;
+    height: 55%;
 }
 #Welcome{
     position:absolute;
@@ -46,19 +47,39 @@ h2{
 }
 .menu{
     list-style:none ;
-    position: absolute;
-    top: 10px;
-    right: 30px;
+    position: fixed;
+    top: 0px;
     z-index: 10;
     cursor: pointer;
+    background-color: burlywood;
+    width: 100%;
+    margin-top: 0px;
 }
 .links{
-    float: left;
-    padding-top: 5px;
-    padding-left: 9px;
-    padding-right: 9px;
-    padding-bottom: 5px;
+    padding-left: 33px;
+    padding-right: 25px;
     font-family: fantasy;
     font-size: 20px;
-    color: rgb(248, 2, 236);
+    color: rgb(248, 2, 236) !important;
+    display: inline;
+}
+html{
+    scroll-behavior: smooth;
+}
+.links:hover{
+    font-size: 25px;
+    text-decoration: underline;
+    color: rgb(8, 221, 8);
+}
+#writtings a{
+    text-decoration: underline !important;
+    color: rgb(88, 4, 4);
+}
+#contact{
+    background-color: gray;
+
+}
+.Contacts_1 h3{
+    display: inline;
+    
 }
